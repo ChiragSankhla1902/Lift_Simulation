@@ -152,8 +152,29 @@ body{
 }
 
 
-@media screen and (max-width:800px ) {
+
+@media screen and (max-width:1050px) {
+    .query-field{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:950px) {
     .SingleLift{
-        left:30%
+        width: 80px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width:850px ) {
+    .SingleLift{
+        margin-left:10%
+    }
+}
+
+@media screen and (max-width:500px ) {
+    .SingleLift{
+        margin-left:20%
     }
 }
