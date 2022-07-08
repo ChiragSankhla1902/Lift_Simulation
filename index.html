@@ -11,8 +11,13 @@
     <body>
         <div class="main-container">
             <div class="query-field">
-                <input type="number" id="NumberOfFloor" placeholder='Create number of floors' />
-                <button id="ButtonToCreate" onclick="CreateTheWorld()">Create</button>
+                <div>
+                    <input min="0" type="number" id="NumberOfFloor" placeholder='Number of floors' />
+                </div>
+                <div>
+                    <input type="number" id="NumberOfLift" placeholder='Number of Lifts' />
+                    <button id="ButtonToCreateLift" onclick="CreateTheWorld()">Create</button>
+                </div>
             </div>
             
             <div class="Container">
