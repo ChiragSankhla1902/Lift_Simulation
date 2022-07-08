@@ -9,7 +9,7 @@ function CreateTheWorld(){
     let lifts = parseInt(document.getElementById('NumberOfLift').value);
     if(floor>0 && lifts>0 )
     {
-        if(parseInt(window.innerWidth)<550 && lifts>=2){
+        if(parseInt(window.innerWidth)<550 && lifts>=1){
             lifts=1;
             alert ("For better Ui Lift value has been set to 1...Sorry")
         }
